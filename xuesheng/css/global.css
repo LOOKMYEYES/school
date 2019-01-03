@@ -1,0 +1,17 @@
+/*公共样式*/
+*{
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+html,body{
+	font-size: 100px;
+	height: 100%;
+}
+/*1rem = 100px*/

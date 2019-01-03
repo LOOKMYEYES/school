@@ -1,0 +1,175 @@
+@import "global.css";
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+/*头部*/
+.head{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    background: #FFBD60;
+    color: #ffffff;
+    text-align: center;
+}
+.head h3{
+    width: 58%;
+    text-align: end;
+    font-weight: normal;
+    font-size: .18rem;
+    float: left;
+}
+.head .search{
+    float: left;
+    width: 42%;
+    text-align: end;
+    padding-right: 10px;
+}
+.head .search img{
+    margin-top: 14px;
+}
+/*头部导航*/
+.sww1{
+    width: 100%;
+    margin-right: 30px;
+}
+.sww1 .swiper-wrapper{
+    width: auto ;
+}
+.sww1 .swiper-slide{
+    width: auto !important;
+    padding: 5px 15px;
+    text-align: center;
+}
+.headnav{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+}
+.headnav ul{
+    width: 100%;
+    font-size: .16rem;
+    color: #333333;
+    text-align: center;
+}
+.headnav li{
+    width: 20%;
+    float: left;
+}
+.headnav li span{
+    padding-bottom: 2px;
+}
+.onbottomborder{
+    border-bottom: 1px solid #FFBD60;
+}
+.nav-two{
+    width: 100%;
+    height: auto;
+    background: #666666;
+    opacity: 0.9;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    }
+.nav-two .navchild{
+    width: 100%;
+    height: auto;
+    max-height: 1.5rem;
+    padding: 8px 10px;
+}
+.navchild ul li{
+    float: left;
+    width: auto;
+    height: .33rem;
+    padding: 8px 15px;
+    background: #F0F2F5;
+    border-radius: 5px;
+    font-size: .14rem;
+    text-align: center;
+    margin: 8px;
+}
+/*轮播*/
+.banner{
+    width: 100%;
+    padding: 10px 0;
+    height: 1.8rem;
+    position: relative;
+}
+.swiper-wrapper{
+    width: 100%;
+
+}
+.banner .swiper1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.swiper1 .swiper-pagination-bullet{
+    background: #D8D8D8;
+}
+.swiper1 .swiper-pagination-bullet-active{
+    background: #ffffff;
+}
+/*推荐课程*/
+.reke{
+    width: 100%;
+    height: 3.5rem;
+    padding: 0 .1rem;
+}
+.reke .top_ke{
+    width: 100%;
+    height: auto;
+}
+.top_ke li{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.top_ke li img{
+    width: 100%;
+}
+.top_ke li .kename{
+    width: 90%;
+    height: auto;
+    max-height: .4rem;
+    font-size: .13rem;
+    color: #666666;
+}
+.top_ke li .keteacher{
+    width: 100%;
+    height: .15rem;
+    color: #999999;
+    font-size: .10rem;
+}
+
+/*底部菜单*/
+.footmeun{
+    width: 100%;
+    height: .55rem;
+    margin: 0 auto;
+    line-height: .55rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+.footmeun ul{
+    width: 100%;
+    padding-top: 10px   ;
+}
+.footmeun li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+

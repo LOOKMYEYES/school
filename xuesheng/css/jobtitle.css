@@ -1,0 +1,155 @@
+@import "global.css";
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #F0F2F5;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+/*头部*/
+.head{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    background: #FFBD60;
+    color: #ffffff;
+    text-align: center;
+}
+.head h3{
+    width: 58%;
+    text-align: end;
+    font-weight: normal;
+    font-size: .18rem;
+    float: left;
+}
+.head .search{
+    float: left;
+    width: 42%;
+    text-align: end;
+    padding-right: 10px;
+}
+.head .search img{
+    margin-top: 14px;
+}
+/*头部导航*/
+.headnav{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+}
+.headnav ul{
+    width: 100%;
+    font-size: .16rem;
+    color: #333333;
+    text-align: center;
+}
+.headnav li{
+    width: 25%;
+    float: left;
+}
+
+/*轮播*/
+.banner{
+    width: 100%;
+    padding: 10px 0;
+    height: 1.5rem;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/*职位信息*/
+.job{
+    width: 100%;
+    height: auto;
+}
+.job .joblist{
+    width: 100%;
+    padding: 0 10px;
+}
+.joblist ul .job_msg{
+    width: 100%;
+    height: 100%;
+}
+.job_msg>*{
+    float: left;
+}
+.job_msg .jobname{
+    width: 70%;
+    padding: 7px 0;
+}
+.job_msg .jobprice{
+    width: 30%;
+    padding: 7px 0;
+    color: #FFBD60;
+    text-align: end;
+}
+.job_msg .jobhome{
+    width: 30%;
+    padding: 7px 0;
+}
+.job_msg .jobtime{
+    width: 70%;
+    padding: 7px 0;
+}
+.job_msg ol{
+    width: 100%;
+}
+.job_msg ol .jobobs {
+    width: auto;
+    padding: 5px 8px;
+    float: left;
+    border-radius: 10px;
+    color: #999999;
+    background: #F5F5F5;
+    margin: 5px 8px;
+}
+.job_msg .jobimg{
+    width: 100%;
+    margin: 8px 0;
+}
+.job_msg .jobimg img{
+    float: left;
+    width: .34rem;
+    height: .34rem;
+    margin-right: 15px;
+}
+.job_msg .jobimg .jobman{
+    float: left;
+    height: .34rem;
+    line-height: .34rem;
+    font-size: .13rem;
+    color: #333333;
+}
+
+
+
+
+
+/*底部菜单*/
+.footmeun{
+    overflow: hidden;
+    width: 100%;
+    height: .55rem;
+    margin: 0 auto;
+    line-height: .55rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+.footmeun ul{
+    width: 100%;
+    padding-top: 10px   ;
+}
+.footmeun li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+

@@ -1,0 +1,248 @@
+@import "global.css";
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    background: #FFBD60;
+    color: #ffffff;
+    text-align: center;
+}
+.head h3{
+    font-weight: normal;
+    font-size: .18rem;
+}
+/*轮播*/
+.banner{
+    width: 100%;
+    padding: 10px 0;
+    height: 1.5rem;
+}
+.swiper-wrapper{
+    width: 100%;
+
+}
+.banner .swiper1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+/*菜单选项*/
+.list{
+    width: 100%;
+    height: 1.5rem;
+    margin-top: .25rem;
+}
+.list .meun{
+    width: 100%;
+    height: 100%;
+}
+.meun li{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin: 5px 0;
+}
+.meun li img{
+    width: 40%;
+    padding: 5px;
+}
+.meun li p{
+    color: #A0A0A0;
+    font-size: .14rem;
+}
+/*广告*/
+.baner{
+    width: 100%;
+    height: auto;
+    max-height: .6rem;
+}
+.baner img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 .2rem;
+}
+/*精品课程*/
+.jingpin{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.jingping-top{
+    width: 100%;
+    height: 100%;
+
+}
+.jingping-top .top_head{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+}
+.jingping-top .top_head img{
+    margin-right: 10px;
+}
+.jingping-top .top_ke{
+    width: 100%;
+    height: auto;
+}
+.top_ke li{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.top_ke li img{
+    width: 100%;
+}
+.top_ke li .kename{
+    width: 90%;
+    height: auto;
+    max-height: .4rem;
+    font-size: .13rem;
+    color: #666666;
+}
+.top_ke li .keteacher{
+    width: 100%;
+    height: .15rem;
+    color: #999999;
+    font-size: .10rem;
+}
+/*社团活动*/
+.shetuan {
+    width: 90%;
+    height: auto    ;
+    margin: 0 auto;
+}
+.shetuan .top_head{
+    width: 75%;
+    height: .44rem;
+    line-height: .44rem;
+    float: left;
+}
+.shetuan .top_head img{
+    margin-right: 10px;
+}
+.shetuan-top .topmore{
+    float: left;
+    width: 25%;
+    height: .44rem;
+    line-height: .44rem;
+    color: #999999;
+    font-size: .12rem;
+}
+.shetuan_list{
+    width: 100%;
+    height: auto;
+}
+.shetuan_list li{
+    width: 100%;
+    clear: both;
+}
+.shetuan_list .shetopname{
+    font-size: .14rem;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.shetuan_list .shetopaddress{
+    font-size: .10rem;
+    color: #999999;
+}
+.shetuan_list .left {
+    width: 70%;
+    float: left;
+}
+.shetuan_list img{
+    float: left;
+    width: 30%;
+    padding: 5px 5px 5px .3rem;
+}
+.shetuan_list .orangeline{
+    width: 10%;
+    border: 1px solid #FFBD60;
+    float: left;
+}
+
+/*精选*/
+.jingxuan{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.jingxuan .top_head{
+    width: 75%;
+    height: .44rem;
+    line-height: .44rem;
+    float: left;
+}
+.jingxuan .top_head img{
+    margin-right: 10px;
+}
+.jingxuan-top .topmore{
+    float: left;
+    width: 25%;
+    height: .44rem;
+    line-height: .44rem;
+    color: #999999;
+    font-size: .12rem;
+}
+.jingxuan-list{
+    width: 100%;
+    height: auto;
+}
+.jingxuan-list li{
+    width: 100%;
+    clear: both;
+}
+.jingxuan-list .jingtopname{
+    font-size: .14rem;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.jingxuan-list .jingtopaddress{
+    font-size: .10rem;
+    color: #999999;
+}
+.jingxuan-list .left {
+    width: 70%;
+    float: left;
+}
+.jingxuan-list img{
+    float: left;
+    width: 30%;
+    padding: 5px 5px 5px .3rem;
+}
+.jingxuan-list .orangeline{
+    width: 10%;
+    border: 1px solid #FFBD60;
+    float: left;
+}
+/*底部菜单*/
+.footmeun{
+    width: 100%;
+    height: .55rem;
+    margin: 0 auto;
+    line-height: .55rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+.footmeun ul{
+    width: 100%;
+    padding-top: 10px   ;
+}
+.footmeun li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+

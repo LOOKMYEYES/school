@@ -1,0 +1,300 @@
+@import "global.css";
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+/*头部banner*/
+.course_head{
+    width: 100%;
+    height: 2.25rem;
+}
+.course_head img{
+    width: 100%;
+    height: 100%;
+}
+/*头部课程 菜单*/
+.course_list{
+    width: 90%;
+    height: .44rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #D8D8D8;
+}
+.course_list li{
+    width: auto;
+    padding: 10px 18px;
+    float: left;
+}
+.onbgcolor{
+    border-bottom: 2px solid #FFBC65;
+}
+/*课程详细的信息*/
+.big_box{
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+}
+.big_box .course_box{
+    width: 100%;
+}
+.course_box h4{
+    font-size: .16rem;
+    padding: 20px 0;
+    color: #333333;
+    font-weight: normal;
+}
+.course_box .course_msg{
+    width: 100%;
+    clear: both;
+    height: 1rem;
+    border-bottom: 1px solid #D8D8D8;
+
+}
+.course_msg .course_name{
+    float: left;
+}
+.course_msg .course_price{
+    float: right;
+    color: #88151B;
+    padding: 8px 0;
+    font-size: .12rem;
+    margin-top: 16px;
+}
+.course_msg .course_prose{
+    width: 50%;
+    float: left;
+}
+.course_prose .prose{
+    width: 30%;
+    float: left;
+    font-size: .12rem;
+    padding: 3px 0;
+    color: #666666;
+}
+.course_prose .prose_star{
+    width: 70%;
+    float: left;
+}
+.course_prose .prose_star img{
+    width: 10%;
+}
+.number{
+    width: 50%;
+    float: left;
+    font-size: .14rem;
+    color: #666666;
+}
+/*课程介绍*/
+.course_detalis{
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: .2rem;
+}
+.course_detalis .detalis{
+    font-size: .12rem;
+    color: #666666;
+}
+/*适用人群*/
+.course_people{
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: .2rem;
+}
+.course_people .people{
+    font-size: .12rem;
+    color: #88151B;
+}
+/*JAVA训练营*/
+.course_drill{
+    width: 100%;
+    height: .44rem;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: .2rem;
+}
+.course_drill h4{
+    float: left;
+    padding: 10px 0;
+}
+.course_drill a{
+    float: right;
+    font-size: .12rem;
+    color: #88151B;
+    line-height: .44rem;
+}
+/*讲师介绍*/
+.course_teacher{
+    width: 100%;
+    clear: both;
+}
+.course_teacher .teach_msg{
+    width: 100%;
+}
+.course_teacher .teach_msg img{
+    width: 20%;
+    vertical-align: middle;
+
+}
+.course_teacher .teach_msg span{
+    padding-left: 10px;
+    font-size: .13rem;
+    color: #666666;
+}
+.course_teacher .teacher_detalis{
+    color: #666666;
+    font-size: .12rem;
+    padding-top: 10px;
+}
+
+/*课程目录*/
+.big_box .course_con{
+    width: 100%;
+}
+.course_con .con_head{
+    width: 100%;
+    padding: 10px 0;
+    font-size: .16rem;
+    color: #333333;
+    border-bottom:1px solid #D8D8D8;
+}
+/*初识JAVA*/
+.course_con .chushi{
+    width: 100%;
+}
+.chushi h4{
+    color: #333333;
+    font-size: .16rem;
+    padding: 10px 0;
+}
+.chushi li{
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    clear: both;
+}
+
+.chushi li img{
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 12px 8px;
+}
+.chushi li .video_name{
+    float: left;
+    width: 60%;
+    font-size: .14rem;
+    color: #333333;
+}
+.chushi li .video_stauts{
+    float: left;
+    width: 20%;
+    font-size: .12rem;
+    color: #88151B;
+}
+.chushi .video_stauts img{
+    width: 60%;
+    margin-top: 15px;
+}
+/*assess评价全部评价*/
+.course_assess{
+    width: 100%;
+}
+.course_assess .assess{
+    width: 100%;
+}
+.assess .assess_star{
+    width: 100%;
+    padding: 12px 7px;
+}
+.assess .assess_star img{
+    width: 5%;
+}
+.assess .assess_txt{
+    width: 100%;
+    height: .64rem;
+    background: #F7F7F7;
+    border: 1px solid #999999;
+    color: #666666;
+    font-size: .12rem;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+.assess_ping{
+    width: 100%;
+}
+.assess_ping .pingtop{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    border-bottom: 1px solid #D8D8D8;
+}
+.pingtop h4{
+    float: left;
+}
+.pingtop .pingjianum{
+    float: right;
+    font-size: .12rem;
+    color: #333333;
+}
+.assess_ping .assess_list{
+    width: 100%;
+    padding-top: 10px;
+}
+.assess_list li{
+    width: 100%;
+}
+.assess_list .assess_left{
+    float: left;
+    width: 40%;
+}
+.assess_list .assess_left img{
+    float: left;
+    width: 50%;
+}
+.assess_list .assess_left p{
+    width: 50%;
+    padding: 7px 5px;
+    float: left;
+}
+.assess_list .assess_right{
+    float: right;
+    width: 60%;
+    padding: 25px 20px;
+}
+.assess_list .assess_right img{
+    float: left;
+    width: 9%;
+}
+.assess_list .assess_right p{
+    float: left;
+    padding-left: 20px;
+    font-size: .12rem;
+    color: #666666;
+}
+.assess_list .down{
+    width: 100%;
+    clear: both;
+}
+.down .assess_msg{
+    padding: 8px 0;
+    font-size: .12rem;
+    color: #666666;
+}
+.course_assess .sub_course{
+    width: 90%;
+    height: .5rem;
+    line-height: .5rem;
+    color: #ffffff;
+    background: #FFBD5F;
+    text-align: center;
+    font-size: .18rem;
+    border-radius: 5px;
+    position: fixed;
+    bottom:10px;
+    left: 5%;
+}

@@ -1,0 +1,105 @@
+@import "global.css";
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+
+}
+/*头部*/
+.head{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    background: #FFBD60;
+    color: #ffffff;
+    text-align: center;
+}
+.head h3{
+    width: 58%;
+    text-align: end;
+    font-weight: normal;
+    font-size: .18rem;
+    float: left;
+}
+.head .search img{
+    margin-top: 14px;
+}
+.msg_list{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+.msg_list ul{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+}
+.msg_list li{
+    width: 100%;
+    clear: both;
+    height: .7rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #D8D8D8;
+}
+.msg_list li:last-child{
+    border-bottom: none;
+}
+.msg_list li img{
+    width: .44rem;
+    height: .44rem;
+    float: left;
+}
+.msg_list li p{
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+}
+.msg_list li .jobtime{
+    width: 30%;
+    float: right;
+    font-size: .12rem;
+    margin-top: 7px;
+    color: #999999;
+}
+.jobmore{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: .13rem;
+    color: #999999;
+    padding: 15px 0;
+}
+.msg_list li .jobtxt{
+    font-size: .13rem;
+    color: #999999;
+}
+
+
+/*底部菜单*/
+.footmeun{
+    width: 100%;
+    height: .55rem;
+    margin: 0 auto;
+    line-height: .55rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+.footmeun ul{
+    width: 100%;
+    padding-top: 10px   ;
+}
+.footmeun li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
